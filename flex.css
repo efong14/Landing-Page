@@ -1,11 +1,48 @@
-.Top {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.toptop {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.tth {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-ul {
+
+.header1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.litt {
     display: flex;
     list-style-type: none;
     gap: 10px;
     align-items: flex-start;
+}
+
+.ttbody {
+    display: flex;
+}
+
+.tttext {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.litt, .ttbt {
+    font-size: 18px;
+    color: #e5e7eb;
 }
