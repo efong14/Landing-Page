@@ -72,3 +72,32 @@ a, .ttbt {
     margin-top: 10px;
     border: none;
 }
+
+.Topmid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tmpics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tmcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+}
+
+.tmimg {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    border: 5px solid #1f2937;
+    border-radius: 12px;
+}
