@@ -80,10 +80,17 @@ a, .ttbt {
     align-items: center;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 30px;
+}
 .tmpics {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .tmcontainer {
@@ -100,4 +107,31 @@ a, .ttbt {
     margin: 10px;
     border: 5px solid #1f2937;
     border-radius: 12px;
+}
+
+.Botmid {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+}
+
+.bmcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937
+}
+
+.author {
+    font-size: 26px;
+    font-weight: bold;
+    align-self: flex-end;
 }
