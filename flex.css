@@ -14,10 +14,6 @@ button {
     border-radius: 6px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .toptop {
     background-color: #1f2937;
     margin: 0px;
@@ -42,6 +38,10 @@ a {
     list-style-type: none;
     text-decoration: none;
     gap: 10px;
+}
+
+.link1 {
+    text-decoration: none;
 }
 
 .ttbody {
@@ -86,6 +86,7 @@ h2 {
     color: #1f2937;
     margin: 30px;
 }
+
 .tmpics {
     display: flex;
     justify-content: center;
@@ -107,6 +108,11 @@ h2 {
     margin: 10px;
     border: 5px solid #1f2937;
     border-radius: 12px;
+}
+
+.link2, .tmtext {
+    color: black;
+    font-size: 16px;
 }
 
 .Botmid {
@@ -134,4 +140,57 @@ h2 {
     font-size: 26px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.Botbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bbcontainer1 {
+    background-color: #3882F6;
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 75px 150px;
+    padding: 25px 100px;
+    border-radius: 6px;
+}
+
+.bbcontainer2 {
+    color: #f9faf8;
+}
+
+.bbheader {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bbtext {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.button2 {
+    width: 140px;
+    height: 40px;
+    align-self: center;
+    flex: none;
+    border-color: white;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 18px;
+}
+
+.Footer {
+    background-color: #1f2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 {
+    color: #f9faf8;
+    font-size: 18px;
 }
